@@ -8,7 +8,7 @@ As shown in above figure, we assign certain rules to the goals so that they acco
 
 ## How to install it
 
-Our environments depend on [openai gym](https://github.com/openai/gym). Please install gym at first.
+Our environments depend on [openai gym](https://github.com/openai/gym). Please install gym (ver-0.10.9) at first.
 
 ``` shell
 cd dygym
@@ -23,4 +23,20 @@ python test_dyreach.py
 ```
 
 # DHER
-Update soon ~
+Our algorithms depend on [openai baselines](https://github.com/openai/baselines). Please install baselines (ver-0.1.5) at first.
+
+## DDPG+DHER
+
+### How to install it
+
+``` shell
+cd dher
+python install -e .
+```
+
+### Use DHER
+
+``` shell
+cd dher/ddpg_dher/experiment
+python train_dyreach.py
+```
