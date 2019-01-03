@@ -25,18 +25,26 @@ python test_dyreach.py
 # DHER
 Our algorithms depend on [openai baselines](https://github.com/openai/baselines). Please install baselines (ver-0.1.5) at first.
 
-## DDPG+DHER
-
-### How to install it
+## How to install it
 
 ``` shell
 cd dher
 python install -e .
 ```
 
-### Use DHER
+## Use DDPG + DHER
 
 ``` shell
 cd dher/ddpg_dher/experiment
 python train_dyreach.py
 ```
+
+## Use DQN + DHER
+
+
+``` shell
+cd dher/dqn_dher/experiment
+python train_dysnake.py
+```
+
+> NOTE: In Dy-Snake, the first four digits of an observation indicate achieved goals and desired goals. Our implementation of DQN+DHER uses this trick.
