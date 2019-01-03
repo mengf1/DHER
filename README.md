@@ -8,7 +8,7 @@ As shown in above figure, we assign certain rules to the goals so that they acco
 
 ## How to install it
 
-Our environments depend on ![openai gym](https://github.com/openai/gym). Please install gym at first.
+Our environments depend on [openai gym](https://github.com/openai/gym). Please install gym at first.
 
 ``` shell
 cd dygym
