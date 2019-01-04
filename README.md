@@ -1,7 +1,3 @@
-# Key idea - failed twice then success
-
-![Idea](resource/fig-framework.jpeg)
-
 # Dy Envs
 There are dynamic goal environments. We modify the robotic manipulation environments created
 by OpenAI (Brockman et al., 2016) for our experiments. 
@@ -54,6 +50,10 @@ python train_dysnake.py
 ```
 
 > NOTE: In Dy-Snake, the first four digits of an observation indicate achieved goals and desired goals. Our implementation of DQN+DHER uses this trick.
+
+# Key idea - failed twice then success
+
+![Idea](resource/fig-framework.jpeg)
 
 # Citation
 Please cite our ICLR paper if you use this repository in your publications:
