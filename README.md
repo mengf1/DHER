@@ -43,7 +43,6 @@ python train_dyreach.py
 
 ## Use DQN + DHER
 
-
 ``` shell
 cd dher/dqn_dher/experiment
 python train_dysnake.py
@@ -68,3 +67,6 @@ year={2019},
 url={https://openreview.net/forum?id=Byf5-30qFX},
 }
 ```
+
+# Licence
+The MIT License
