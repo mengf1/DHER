@@ -54,12 +54,20 @@ python train_dysnake.py
 
 ![Idea](resource/fig-framework.jpeg)
 
+# Poster
+
+<object data="https://mengf1.github.io/files/posters/DHER-poster.pdf" type="application/pdf" width="700px" height="700px">
+    <embed src="https://mengf1.github.io/files/posters/DHER-poster.pdf">
+        <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://mengf1.github.io/files/posters/DHER-poster.pdf">Download PDF</a>.</p>
+    </embed>
+</object>
+
 # Citation
 Please cite our ICLR paper if you use this repository in your publications:
 
 ```
 @inproceedings{
-fang2018dher,
+fang2019dher,
 title={{DHER}: Hindsight Experience Replay for Dynamic Goals},
 author={Meng Fang and Cheng Zhou and Bei Shi and Boqing Gong and Jia Xu and Tong Zhang},
 booktitle={International Conference on Learning Representations},
